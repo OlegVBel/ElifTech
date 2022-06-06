@@ -1,0 +1,30 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background-color: rgb(200, 230, 255);
+}
+.wrapper-tasks{
+  padding-top: 40px;
+  display: flex;
+  gap: 25px;
+}
+
+.btn{
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  border-color: rgba(0, 0, 0, 0.267);
+  background-color: #bff8cb;
+  transition: background-color 0.24s linear;
+}
+.btn:hover{
+  background-color: #ffffff;
+  transition: background-color 0.24s linear;
+}
+.stop-btn{
+  background-color: #f6bff8;
+  transition: background-color 0.24s linear;
+}
