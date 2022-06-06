@@ -19,6 +19,7 @@ body{
   border-color: rgba(0, 0, 0, 0.267);
   background-color: #bff8cb;
   transition: background-color 0.24s linear;
+  cursor: pointer;
 }
 .btn:hover{
   background-color: #ffffff;
