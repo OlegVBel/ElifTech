@@ -1,0 +1,81 @@
+.services {
+  padding: 40px 0 45px;
+}
+.services__title {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.services__columns {
+  display: flex;
+  gap: 20px;
+
+}
+.services__columns-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.services__card {
+  background-color: var(--white-color);
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  height: 378px;
+  width: 220px;
+}
+.card__titel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 75px;
+  width: 100%;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  background-color: #77B2D3;
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+  border-radius: 15px 15px 0px 0px;
+  color: var(--white-color);
+}
+.card__pluses-list {
+  padding: 18px 0 0 18px;
+  height: 250px;
+}
+.card__pluses-item {
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 24px;
+  background-image: url('../static/inst.svg');
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  background-position: 0 3px;
+}
+.card__price {
+  position: relative;
+  padding: 14px 30px 0 18px;
+}
+.card__price::before{
+  content: "";
+  position: absolute;
+  width: 210px;
+  height: 1px;
+  top: 0;
+  left: 5px;
+  background-color: #E2E2E2;
+
+}
+.card__price-cful {
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 24px;
+  color: var(--black-color);
+  background: linear-gradient(115.11deg, #F32C6D 10.12%, #CB1D95 100.01%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.services__description-btn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+}

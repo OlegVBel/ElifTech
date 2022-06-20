@@ -1,0 +1,55 @@
+.content {
+  max-width: 590px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content__item-btn {
+  margin-bottom: 40px;
+}
+.content__item-text{
+  margin-bottom: 40px;
+
+}
+.icons__list {
+  display: flex;
+  gap: 23px;
+}
+.icons__list-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background: rgba(241, 98, 20, 0.15);
+}
+.icons__list-item:hover{
+  cursor: pointer;
+  background: rgba(241, 98, 20, 0.3);
+  transition: background-color 0.24s ease;
+}
+.icons__list-item:active{
+  background: rgba(241, 98, 20, 0.5);
+  transition: background-color 0.24s ease;
+}
+.icons__list-item:visited{
+  background: rgba(241, 98, 20, 0.7);
+  transition: background-color 0.24s ease;
+}
+.icons__list-item:focus{
+  background: rgba(241, 98, 20, 0.9);
+  transition: background-color 0.24s ease;
+}
+.icons__list-item:first-child:hover{
+  cursor: pointer;
+  background: rgba(241, 20, 49, 0.3);
+  transition: background-color 0.24s ease;
+}
+.icons__list-item:last-child:hover{
+  cursor: pointer;
+  background: rgba(201, 243, 16, 0.3);
+  transition: background-color 0.24s ease;
+}
